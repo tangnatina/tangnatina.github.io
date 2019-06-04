@@ -32,36 +32,42 @@ form {
   border-radius: 1em;
 }
 
-form div + div {margin-top: 1em;}
+ #tinatang {
+            position:fixed;
+            top:730px;
+            font-family:Monospace;
+text-align:center;
+color:black;
+font-size:30px;
+background-color:pink;
+            
+  }
 
-label {display: inline-block;
-  width: 90px;
-  text-align: right;
+body {margin:0;}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
 }
 
-input, textarea {
-font: 1em sans-serif;
-box-sizing: border-box;
-border: 1px solid #999;
+.topnav a {
+  float: left;
+  display: block;
+  color: pink;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  border-bottom: 3px solid transparent;
+  font-family:Monospace;
 }
 
-input:focus, textarea:focus {
-  border-color: #000;
+.topnav a:hover {
+  border-bottom: 3px solid pink;
 }
 
-textarea {
-
-  vertical-align: top;
-  height: 5em;
-}
-
-.button {
-  padding-left: 90px; 
-}
-
-button {
- 
-  margin-left: .5em;
+.topnav a.active {
+  border-bottom: 3px solid pink;
 }
 </style>
 <body>
@@ -69,6 +75,17 @@ button {
 <div id=all>
 <br>
 <br>
+<div class="topnav">
+  <a class="active" href="file:///Users/tinatang/Desktop/untitled%20text.html">Home</a>
+  <a href="file:///Users/tinatang/Desktop/untitled%20text%204.html">Posters</a>
+  <a href="file:///Users/tinatang/Desktop/untitled%20text%202.html">About</a>
+</div>
+
+<br>
+<br>
+<p class=symbol>
+<a href= "http://www.ygfamily.com/artist/main.asp?LANGDIV=K&ATYPE=2&ARTIDX=70" > <img  src= "https://i.pinimg.com/originals/27/3b/81/273b8102e30cd5e02279e535226bb524.png" width=90> </a>
+</p>
 <h1 id=goback>
 Blackpink
 <br>
@@ -91,105 +108,100 @@ Blackpink in your area!
 <h3>
 Blackpink is a South Korean girl group formed by YG Entertainment, consisting of members Jisoo, Jennie, Rosé and Lisa.The group debuted on August 8, 2016, with their single album Square One, which spawned   <a href="https://www.youtube.com/watch?v=dISNgvVpWlo ">"Whistle"</a>, their first number-one song in South Korea, as well as  <a href="https://www.youtube.com/watch?v=bwmSjveL3Lc">"Boombayah"</a>, their first number-one hit on the Billboard World Digital Songs chart, which set the record as the most-viewed debut music video by a Korean act.
 </h3>
-
-<p class=symbol>
-<a href= "http://www.ygfamily.com/artist/main.asp?LANGDIV=K&ATYPE=2&ARTIDX=70" > <img  src= "https://i.pinimg.com/originals/27/3b/81/273b8102e30cd5e02279e535226bb524.png" width=90> </a>
-</p>
-<h2>
-Poster is on sale now!!
 <br>
-</h2>
-<h2>
-  <table align="center"  border=2 id=like >
-        <thead>
-        <tbody>
-          <tr>
-          <td>Pictures</td>
+<br>
+<h3>
+BLACKPINK is a brand new girl group, fresh to the K-pop scene. The group was created by YG Entertainment, the same company as the man who brought you Gangnam Style by Hallyu star Psy.
 
-                    <td >Quality/Size</td>
-                    <td >8"x10"</td>
-                    <td >11"x14"</td>
-                    <td >16"x20"</td>
-                  
-        </tr>
-              <tr> 
-              <td><img src="https://i2.wp.com/blackpinkupdate.com/wp-content/uploads/2019/03/2-BLACKPINK-KILL-THIS-LOVE-Teaser-poster.jpg?fit=730%2C836&ssl=1" width=300 ></td>
-                    <td >Kill this love</td>
-                    <td >8.99$</td>
-                    <td >9.99$</td>
-                    <td >13.99$$</td>
-                    
-        </tr>
-      
-              <tr>
-               <td><img src="https://i.pinimg.com/originals/71/63/2c/71632c58fd849d660e9c8bb03d3b469c.jpg" width=300 ></td>
-                    <td >Whistle</td>
-                    <td >8.99$</td>
-                    <td >9.99$</td>
-                    <td >13.99$$</td>
-                    
-        </tr>
-              
-              <tr>
-               <td><img src="https://i.etsystatic.com/14112911/r/il/fe46f3/1825811767/il_794xN.1825811767_rl9u.jpg" width=300 ></td>
-                    <td >Boombayah</td>
-                    <td >8.99$</td>
-                    <td >9.99$</td>
-                    <td >13.99$$</td>
-                    
-        </tr>
-              
-                 
-          
-                      
-        </thead>
-        </table>
-        <h2>
-        BLACKPINK GREATEST HITS
-        <br>
-        <br>
-       <iframe width="966" height="543" src="https://www.youtube.com/embed/aMBQZD0UbLI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </h2>
-        
-        <br>
-        <h2>
-         Do you have any suggusetion for us?
-         <br>if you do please fill out this form.
-         </h2>
-         <h3>
-        <form action="/my-handling-form-page" method="post">
-  <div>
-    <label for="name">Name:</label>
-    <input type="text" id="name" name="user_name">
-  </div>
-  <div>
-    <label for="mail">E-mail:</label>
-    <input type="email" id="mail" name="user_mail">
-  </div>
-  <div>
-    <label for="msg">Message:</label>
-    <textarea id="msg" name="user_message"></textarea>
-   
-  </div>
-  <div class="button">
-  <button type="submit">Send your message</button>
-</div>
-</form>
-  <h2>Everything to Know About K-Pop Group BLACKPINK
+BLACKPINK is only the second girl group that the company has trained and put together, but they are already taking Korea (and many other countries, for that matter) by a storm. The group is comprised of four members: Lisa, Jennie, Jisoo and Rose. The group has released four singles so far, with the most viewed of which being "Boombayah," towering with over 89 million views to date —a huge number compared to other K-pop artists let alone for a rookie group.
 
-  <br>
+<br>
 
-      <iframe src = "http://time.com/5562946/blackpink-k-pop-everything-to-know/" width = "555" height = "200">
-         Sorry your browser does not support inline frames.
-      </iframe>
-      </h2>
+Here's the 101 on who's who in this squad:
+<br>
+
+<h2>Lisa Manoban </h2>
+<br>
+<h3>
+<img  src= "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vbWVkaWEucmJsLm1zL2ltYWdlP3U9JTJGZmlsZXMlMkYyMDE3JTJGMDElMkYwOCUyRjYzNjE5NDkyODgwOTUwMDA5MC03NzU1OTgxOThfT0EzaDA4ZyUyNTIwLSUyNTIwSW1ndXIuZ2lmJmFtcDtobz1odHRwcyUzQSUyRiUyRmF6NjE2NTc4LnZvLm1zZWNuZC5uZXQmYW1wO3M9NzIxJmFtcDtoPTVmN2Q2MTcwZTliNmI0NGZlN2UzOGJhYzMzYzQyZDliZGQxNTBhYmI1YmJmZjAwNGNmNTEzODc1OTM2MTRkOTQmYW1wO3NpemU9OTgweCZhbXA7Yz0zNjc3MDc3NTk3IiwiZXhwaXJlc19hdCI6MTU1OTg5NTk0Nn0.AU1KRAFbzMXwRRGvIDZ6PmHpgSYZNBRtWZS_UkdZ6Us/img.jpg" width=500>
+<br>
+Position: Lead rapper, main dancer, sub-vocalist and maknae (youngest)!
+<br>
+<br>
+Lisa is the youngest member of the group. She was born in Thailand on March 27, 1997. She has been training with YG Entertainment for about five years and finally debuted in 2016. She is fluent in multiple languages, including Thai, Korean and English. Leading up to her debut last year, she featured with other YG artists like B.I and Bobby of iKon. She was even a member of a small group called We Zaa Cool with Bambam of GOT7.
 </h3>
-      
+<br>
+<h2>Jennie Kim </h2>
+<h3>
+<br>
+<img  src= "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vbWVkaWEucmJsLm1zL2ltYWdlP3U9JTJGZmlsZXMlMkYyMDE3JTJGMDElMkYwOCUyRjYzNjE5NDk0MDU1Nzc0MTg5OTExOTc3MDY0NDVfZXpnaWYuY29tLWM3ZGJmODFiNWYuZ2lmJmFtcDtobz1odHRwcyUzQSUyRiUyRmF6NjE2NTc4LnZvLm1zZWNuZC5uZXQmYW1wO3M9MjUyJmFtcDtoPWMyYmQwN2E4OTZjZTYzZmE1Zjg2NDhlMGEzMDkwOWZlMGMyM2M5YWY1ZmQ3YzEyZTc0ODk1ODc3ZmI4OTRiNDQmYW1wO3NpemU9OTgweCZhbXA7Yz00MTExMjMyNzY4IiwiZXhwaXJlc19hdCI6MTU1OTg1NzQ0NH0.8N6wCkpJ4rSg3sbP7lUnRLmBZv1EJfYMudEZNK8cPyo/img.jpg" width=500>
 
+<br>
+<br>
+Position: Main rapper and sub-vocalist.
+<br>
+Jennie was born in South Korea, but is known for having studied abroad in New Zealand before auditioning for a spot in YG Entertainment. Like the other members of the group, she is also fluent in English alongside the native Korean language. She was born January 16, 1996. She became rapper and vocalist within the group after training for more than five years.
+<br>
+<h2>Rosé Park </h2>
+<h3>
+<br>
+<br>
+<img  src= "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vbWVkaWEucmJsLm1zL2ltYWdlP3U9JTJGZmlsZXMlMkYyMDE3JTJGMDElMkYwOCUyRjYzNjE5NDk0ODY3MzQ4NDc2NTcwMTkxMzc0MV9lemdpZi5jb20tN2YxMWEwNzA5NS5naWYmYW1wO2hvPWh0dHBzJTNBJTJGJTJGYXo2MTY1Nzgudm8ubXNlY25kLm5ldCZhbXA7cz03MjImYW1wO2g9NjJkNjA5ODc0YTAwNDlmZTNiNGY1ZjE4ZGJmNTkyZmFmMDViNTZkYjZjOTBlNzU0NTQ5NmU4YjRiMTdlOTFkZiZhbXA7c2l6ZT05ODB4JmFtcDtjPTQxNzYxODE4MyIsImV4cGlyZXNfYXQiOjE1NjAxNDg4NTB9.aUnK6XDI51LAIEr6St91J89xdz92bPlJiDeLPJ9JB6o/img.jpg" width=500>
+<br>
+Position: Main vocalist.
+<br>
+Rosé was born in New Zealand but raised in Melbourne, Australia. She can also speak both English and Korean. She was born February 11, 1997 and is in charge of vocals. She has worked as a YG trainee for over four years leading to her debut. She has appeared in G-Dragon's music video, "Without You," as he is under the same company as BLACKPINK.</h3>
+</h3>
+<br>
+<h2>Jisoo Kim </h2>
+
+<h3>
+<br>
+<img  src= "https://assets.rebelmouse.io/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpbWFnZSI6Imh0dHBzOi8vbWVkaWEucmJsLm1zL2ltYWdlP3U9JTJGZmlsZXMlMkYyMDE3JTJGMDElMkYwOCUyRjYzNjE5NDk1ODEyMzEzNjI5NzEyOTgwMTIzMjNfZXpnaWYuY29tLWNiNWYwMTVlNTMuZ2lmJmFtcDtobz1odHRwcyUzQSUyRiUyRmF6NjE2NTc4LnZvLm1zZWNuZC5uZXQmYW1wO3M9NjImYW1wO2g9NzhhNzZlMDgxZGUzZDdkNjBiNTI3MTI5MjZhNDI0NGY1M2FiZWI2YTQ2OTNjNTVhMjhjMDE2Zjc5ZGVhYzI0YSZhbXA7c2l6ZT05ODB4JmFtcDtjPTg4NjQyODQ2NCIsImV4cGlyZXNfYXQiOjE1NTk3MzA0MTV9.8Wg_9qPyhX708knOy8aR4y3F8VjSS87VEQGM8_uHckU/img.jpg" width=500>
+<br>
+
+Position: Visual (face of the group) and lead vocalist.
+<br>
+Born and raised in South Korea, Jisoo is the fourth member of the group. She was born January 11, 1995, making her the eldest of the four girls. She slays vocals, and she, as with all the other members, is also responsible for dancing intricate choreography. Like the rest of the members, she is able to speak multiple languages.
+<br>
+<br>
+</h3>
+<h3>
+Released song titles:
+<br>
+<li>Boombayah (August 8, 2016)</li>
+
+<li>Whistle (August 8, 2016)</li>
+
+<li>Playing With Fire (October 31, 2016)
+</li>
+<li>Stay (October 31, 2016)</li>
+<br>
+<br>
+Awards Won:
+<br>
+<li>Mnet Asian Music Award for Best Music Video</li>
+
+<li>Mnet Asian Music Award Best Of Next Artist Award</li>
+
+<li>Like Odyssey on Facebook</li>
+
+<li>Stay updated with BLACKPINK by checking out their YouTube channel!</li>
+</h3>
+
+<br>
 <h3><a href="#goback">GO TO TOP<a>  
        </h3>
+<br>
+<br>
+<br>
+<br>
+ 
+            <div id="tinatang">
+         For more information please contact 112-233-44 ____________________________________
+        </div>
+<br>
 </div>
 
 </body>
 </html>
-
